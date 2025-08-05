@@ -31,6 +31,7 @@ XGBoost
 ## Model Evaluation:
 
 Accuracy
+
 Classification Report
 
 ## 📌 Requirements
