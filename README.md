@@ -1,8 +1,8 @@
-#📊 Customer Churn Prediction
+# 📊 Customer Churn Prediction
 
 This project aims to predict customer churn using various machine learning models. It leverages classification techniques to help businesses understand and reduce churn rates, which is crucial for customer retention strategies. Multiple ML Algorithms/Models have been employed which was later fed to a voting classifier to determine the best possible outcome. This Churn Prediction in applied on Ensemble Models.
 
-##📁 Project Structure
+## 📁 Project Structure
 
 ``` bash
 ├── Churn.ipynb          – Jupyter notebook containing the full pipeline from data preprocessing to model evaluation.
@@ -10,25 +10,25 @@ This project aims to predict customer churn using various machine learning model
 └── WA_Fn-UseC_-Telco-Customer-Churn.csv # Telco Customer Churn Dataset available on Kaggle
 ```
 
-##🚀 Features
+## 🚀 Features
 
 Data Cleaning and Preprocessing
 Exploratory Data Analysis (EDA)
 Label Encoding for Categorical Features
 Feature Scaling using StandardScaler
 
-#Model Building:
+# Model Building:
 
 CatBoost
 Random Forest
 XGBoost
 
-#Model Evaluation:
+# Model Evaluation:
 
 Accuracy
 Classification Report
 
-##📌 Requirements
+## 📌 Requirements
 
 Install dependencies using:
 ```bash
@@ -45,7 +45,7 @@ xgboost
 scikit-learn
 ```
 
-##🛠️ How to Run
+## 🛠️ How to Run
 
 Clone the repository:
 ```
@@ -66,7 +66,7 @@ jupyter notebook Churn.ipynb
 Run all cells to execute the full pipeline.
 
 
-##🧹 TODO
+## 🧹 TODO
 
 Deploy best model using Flask/FastAPI
 Export trained model with joblib or pickle
