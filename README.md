@@ -13,17 +13,22 @@ This project aims to predict customer churn using various machine learning model
 ## 🚀 Features
 
 Data Cleaning and Preprocessing
+
 Exploratory Data Analysis (EDA)
+
 Label Encoding for Categorical Features
+
 Feature Scaling using StandardScaler
 
-# Model Building:
+## Model Building:
 
 CatBoost
+
 Random Forest
+
 XGBoost
 
-# Model Evaluation:
+## Model Evaluation:
 
 Accuracy
 Classification Report
@@ -69,5 +74,7 @@ Run all cells to execute the full pipeline.
 ## 🧹 TODO
 
 Deploy best model using Flask/FastAPI
+
 Export trained model with joblib or pickle
+
 Add a Streamlit-based interactive UI
